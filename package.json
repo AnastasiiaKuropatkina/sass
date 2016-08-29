@@ -1,0 +1,25 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run_test" : " echo 11111\n\" && exit 0 ",
+    "build-css": "node-sass --output-style compressed --source-map true  assets/scss/ --output min/css/",
+    "watch-scss": "node-sass --watch --output-style compressed --source-map true  assets/scss/ --output min/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiyaDatsyuk/sass.git"
+  },
+  "author": "Anastasiya Datsyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiyaDatsyuk/sass/issues"
+  },
+  "homepage": "https://github.com/AnastasiyaDatsyuk/sass#readme",
+  "devDependencies": {
+    "node-sass": "^3.8.0"
+  }
+}
