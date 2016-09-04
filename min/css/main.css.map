@@ -1,0 +1,11 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../../assets/scss/main.scss",
+		"../../assets/scss/_variables.scss",
+		"../../assets/scss/_header.scss"
+	],
+	"mappings": "AEAA,AAAA,KAAK,AAAC,CACJ,UAAU,CDDH,IAAI,CCEZ",
+	"names": []
+}
